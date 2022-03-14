@@ -1,0 +1,41 @@
+@import "./variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #FCFAF9;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.4rem;
+}
+
+h1,
+h2,
+p {
+    color: $darkBlue;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 8.8rem;
+    line-height: 8.8rem;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 5.2rem;
+}
